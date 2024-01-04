@@ -1,7 +1,8 @@
 repo_name: taqtiqa-mark/refinery
 report_id: a7913e333e1b988e9b0896ec39ade912
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T21:16:12+00:00'
+timestamp: '2024-01-04T15:15:06+00:00'
 requested_by: eldad
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/taqtiqa-mark/refinery/blob/main/refinery_core/Cargo.toml
   detection_source: refinery_core/Cargo.toml
   last_updated_by: João Oliveira
   last_updated_on: 2020-03-16 23:45:52.000000000 Z
@@ -28,7 +30,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
-  detection_source: refinery_macros/Cargo.toml
+  detection_source_url: https://github.com/taqtiqa-mark/refinery/blob/main/refinery_cli/Cargo.toml
+  detection_source: refinery_cli/Cargo.toml
   last_updated_by: Katharina Fey
   last_updated_on: 2018-02-24 12:08:38.000000000 Z
 - name: Ruby
@@ -40,6 +43,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/taqtiqa-mark/refinery/blob/main/refinery_cli/Cargo.toml
   detection_source: refinery_cli/Cargo.toml
   last_updated_by: Katharina Fey
   last_updated_on: 2018-02-24 12:08:38.000000000 Z
@@ -51,6 +55,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1070/v7txhrjp9pdqrkdtxxp0.png
+  detection_source_url: https://github.com/taqtiqa-mark/refinery
   detection_source: Repo Metadata
 - name: SQL
   description: It is a domain-specific language used in programming
@@ -60,7 +65,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
-  detection_source: refinery/tests/migrations_unversioned/U0__merge_out_of_order.sql
+  detection_source_url: https://github.com/taqtiqa-mark/refinery/blob/main/examples/migrations/V1__initial.sql
+  detection_source: examples/migrations/V1__initial.sql
   last_updated_by: João Oliveira
   last_updated_on: 2019-05-30 18:15:00.000000000 Z
 - name: PostgreSQL
@@ -72,7 +78,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
-  detection_source_url: refinery_core/Cargo.toml
+  detection_source_url: https://github.com/taqtiqa-mark/refinery/blob/main/refinery_core/Cargo.toml
   detection_source: refinery_core/Cargo.toml
   last_updated_by: Omid Rad
   last_updated_on: 2021-09-18 11:11:02.000000000 Z
@@ -85,6 +91,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/taqtiqa-mark/refinery
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -94,6 +101,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/taqtiqa-mark/refinery
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -103,7 +111,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/releases.yml"
+  detection_source_url: https://github.com/taqtiqa-mark/refinery/blob/main/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
   last_updated_by: João Oliveira
   last_updated_on: 2022-01-04 19:49:17.000000000 Z
 - name: PyPI
@@ -114,7 +123,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
-  detection_source: refinery_macros/Cargo.toml
+  detection_source_url: https://github.com/taqtiqa-mark/refinery/blob/main/refinery_cli/Cargo.toml
+  detection_source: refinery_cli/Cargo.toml
   last_updated_by: Katharina Fey
   last_updated_on: 2018-02-24 12:08:38.000000000 Z
 - name: RubyGems
@@ -125,6 +135,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/taqtiqa-mark/refinery/blob/main/refinery_cli/Cargo.toml
   detection_source: refinery_cli/Cargo.toml
   last_updated_by: Katharina Fey
   last_updated_on: 2018-02-24 12:08:38.000000000 Z
@@ -136,6 +147,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/taqtiqa-mark/refinery/blob/main/refinery_core/Cargo.toml
   detection_source: refinery_core/Cargo.toml
   last_updated_by: João Oliveira
   last_updated_on: 2020-03-16 23:45:52.000000000 Z
